@@ -75,9 +75,13 @@ button{
         font-size: 1.5rem;
     }
     
+    .header{
+        flex-direction: column;
+    }
+
     button{
         width: 200px;
-        height: 60px;
+        height: 80px;
     }
 
     .options-container{
