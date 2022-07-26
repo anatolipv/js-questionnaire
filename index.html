@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>JS Questionnaire</title>
+</head>
+<body>
+    <div class="header">
+        <img src="./pics/logo.png" alt="logo">
+        <h1>JS Questionnaire by BG1 Code Suger Hunters</h1>
+    </div>
+    <div class="options-container">
+        <div class="dropDown-container">
+            <label for="selectModule">Select Module</label>
+            <select name="modules" id="selectModule">
+                <option value="all">All</option>
+                <option value="loops-arrays">Loops / Arrays</option>
+                <option value="functions-exceptions">Functions / Exceptions</option>
+                <option value="npm-ESModules">NPM / ES Modules</option>
+                <option value="esnext-eslint">ESNext / ESLint</option>
+                <option value="obj-destructuring">Objects and Destructuring</option>
+                <option value="git">Git</option>
+                <option value="scope-closure">Scope / Closure</option>
+                <option value="modulePattern-FPIntro">Module Pattern / FP Intro</option>
+                <option value="pureArrayFunctions">Pure Array Functions</option>
+            </select>
+        </div>
+        <button class="getQ">load Questions</button>
+        <button class="clear">clear all</button>
+        </button>
+    </div>
+    <div class="question-container">
+        <p class="question">Questions will pop here :)</p>
+        <div class="btn-next-container">
+            <button class="btn-next-question">Next question</button>
+        </div>
+    </div>
+    <div class="answer-container">
+        <div class="btn-answer-container">
+            <button class="btn-show-answer">Show answer</button>
+        </div>
+        <p class="answer">Answers will pop here :)</p>
+    </div>
+    
+    
+</body>
+</html>
