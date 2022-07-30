@@ -8,6 +8,8 @@
 }
 body{
     margin: 2rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .header{
