@@ -184,44 +184,44 @@ const questions = [
 {
     module: "modulePattern-FPIntro",
     question: "What is functional programming?",
-    answer: "",
+    answer: "Functional programing is a programing paradigm or pattern which treats computatuins as the evaluation of mathemathical functions and avoids changing-state and mutable data.",
     id: 29
 },
 {
     module: "modulePattern-FPIntro",
     question: "What is a pure function and what are side effects?",
-    answer: "",
+    answer: "Pure functions: \r\n1.Never changes any of the parameters that get passed to it by reference. \r\n2.The return value of a pure function is not influenced by anything else than its input parameters. Given the same input it will always return the same output. \r\n3.During its execution, a pure function does not change anything outside of it (No side efects).\r\nSide effects we call if function or expression modifies some state of the program, which is outside of its own scope or any change in the system that is observable to the outside world (changing the file system, inserting a record into a database, making an http call, mutatuons, printing to the screen/logging, obtaining user input, querying the DOM, accessing system state).",
     id: 30
 },
 {
     module: "modulePattern-FPIntro",
     question: "What is a module and why would you use it?",
-    answer: "",
+    answer: "Module is IIFE(Immediately Invoked Function Expression) which is executed immediately and only once, used in the module pattern prior to ES6.It has public and private part. All the variables and functions inside a function are in the same scope, so they could access each other returning only the public method(closure).",
     id: 31
 },
 {
     module: "modulePattern-FPIntro",
     question: "What is the revealing module pattern?",
-    answer: "",
+    answer: "It is the same as module pattern in which we reveal public pointers to methods inside the Module`s scope. In the revealing module pattern it is easier to see what is exposed without all the code to be in the returned object.",
     id: 32
 },
     // Pure array functions
 {
     module: "pureArrayFunctions",
     question: "What are the benefits of using array methods (forEach, map, etc.) over loops?",
-    answer: "",
+    answer: "Code looks cleaner, no need to write common logic`s for simple array operations, less places to make misstakes (start/end point,increment/decrement etc.",
     id: 33
 },
 {
     module: "pureArrayFunctions",
     question: "Implement filter, map and reduce.",
-    answer: "",
+    answer: " GO GO GO !",
     id: 34
 },
 {
     module: "pureArrayFunctions",
     question: "Refactor an imperative loop using filter, map, reduce, etc.",
-    answer: "",
+    answer: " GO GO GO ! AGAIN :D",
     id: 35
 },
 ]
