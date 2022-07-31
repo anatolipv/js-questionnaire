@@ -224,6 +224,37 @@ const questions = [
     answer: " GO GO GO ! AGAIN :D",
     id: 35
 },
+// Objects - Adcanced Topics
+{
+    module: "objectsAdvanced",
+    question: "What is the main difference between reference copy and shallow copy?",
+    answer: "Reference copy gives us another way to access the same object, with shallow copy a new object is created that has an exact copy of the velues in the original object. If any of the fields of the object are references to other objects, just the reference addresses are copied.",
+    id: 36
+},
+{
+    module: "objectsAdvanced",
+    question: "What is the main difference between shallow and deep copy?",
+    answer: "Deep copy copies all fields, and makes copies of dynamically allocated memory poited to by the fields. A deep copy occurs when an object is copied along with the objects to which it refers.",
+    id: 37
+},
+{
+    module: "objectsAdvanced",
+    question: "How can you represent complex data? Give an example?",
+    answer: "For complex data we use objects with key/value pairs and if needed a lot of nesting. Keys of object must be strings, but property values can be anything (another object or even array of objects). We must design the structure to be easy to use and in the same time to capture all the requered information.",
+    id: 38
+},
+{
+    module: "objectsAdvanced",
+    question: "What are methods? Give an example.",
+    answer: "JavaScript is designed on a simple object-based paradigm. An object is a collection of properties, and a property is an association between a name (or key) and a value. A property's value can be a function, in which case the property is known as a method.",
+    id: 39
+},
+{
+    module: "objectsAdvanced",
+    question: "What are linked lists? Can you traverse a linked list?",
+    answer: "Linked list we call a linear collection of data elements whose order is not given by their physical placement in memory. Instead, each element points to the next(sometimes even the previous, first, last etc.). It is a data structure consisting of a collection of nodes which together represent a sequence.",
+    id: 40
+},
 ]
 let desiredQuestions = [];
 

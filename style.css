@@ -72,22 +72,17 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .answer-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 400px;
+    
 }
 
-.answer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-    max-width: 75%;
-}
+
 
 p{
     text-align: left;
