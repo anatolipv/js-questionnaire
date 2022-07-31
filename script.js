@@ -10,169 +10,174 @@ const questions = [
 {
     module: "loops-arrays",
     question: "What is an array? What are the benefits of using arrays over using several variables?",
-    answer: "",
+    answer: "An array is a secquence of elements in order. Each element has its way to be accessed-index that starts from zero.",
     id: 2
 },
     // Functions / Exceptions
 {
     module: "functions-exceptions",
     question: "What is a function? What types of functions are there?",
-    answer: "",
+    answer: "A function is building block that solves a small problem, a piace of code that has name and can be called from other code. Can take parameters and return value, can be reused with different parameters to produce different outcome. Allow programers to construct large programs from simple pieces. Function declaration (uses keyword <function> and return statement), function expression (jsut assign the function to a variable), ES2015 added arrow functions to JS (shorter sintax, dont have arguments obj, dont have this context).",
     id: 3
 },
 {
     module: "functions-exceptions",
     question: "What is the difference between function expression, fat arrows and function declaration?",
-    answer: "",
+    answer: "With function declaration, function can be used even before its declaration which is not the case with arrow or expressions; arrow func does not have argiments obj and cant use <this>; different sintax",
     id: 4
 },
 {
     module: "functions-exceptions",
     question: "What is an immediately-invoked function expression? Why use it?",
-    answer: "",
+    answer: "An IIFE (Immediately Invoked Function Expression) is a JavaScript function that runs as soon as it is defined. We use it for several reasons: 1.Avoid polluting the global namespace, 2.Execute an async function, 3.The module pattern (create private and public variables and methods) ",
     id: 5
 },
     // NPM / ES Modules
 {
     module: "npm-ESModules",
     question: "What is NPM? What are the benefits of using it?",
-    answer: "",
+    answer: "NPM - Node Package Manager is the default package manager for JavaScript runtime enviroment Node.js. All the packages are open source(we can check the code and see how it works), the most used of each kind are well tested and prowen to work, most of the packages are updated regularly. In order to use NPM we need to have Node.js installed.",
     id: 6
 },
 {
     module: "npm-ESModules",
     question: "What is the package.json file?",
-    answer: "",
+    answer: "In order to be able to update,add or remove packages NPM stores all the information about the project and used packages in the package.json file.",
     id: 7
 },
 {
     module: "npm-ESModules",
     question: "What are NPM scripts?",
-    answer: "",
+    answer: "An npm script is a convenient way to bundle common shell commands for your project. They are typically commands, or a string of commands, which would normally be entered at the command line in order to do something with your application. Scripts are stored in a project's package.",
     id: 8
 },
 {
     module: "npm-ESModules",
     question: "What are ES Modules?",
-    answer: "",
+    answer: "ES Modules came with ECMAScript6(ES2015). This is modern way to do modules in JavaScript. This approach uses the export and import keywords, instead of the older CommonJS syntax of module. exports and require.",
     id: 9
 },
     // ESNext / ESLint
 {
     module: "esnext-eslint",
     question: "What are the benefits of including 'use strict' at the beginning of a JavaScript source file?",
-    answer: "",
+    answer: "Strict mode makes it easier to write secure JavaScript. Strict mode changes previously accepted bad syntax into real errors. As an example, in normal JavaScript, mistyping a variable type creates a new global variable.",  
     id: 10
 },
 {
     module: "esnext-eslint",
     question: "What are template strings? What are their benefits?",
-    answer: "",
+    answer: "Multiline strings with value placeholder without the use of endline operator `${name} is ${age} years old.`. No need to concatenate strings.",
     id: 11
 },
 {
     module: "esnext-eslint",
     question: "What are destructuring assignments?",
-    answer: "",
+    answer: "Destructuring assignments allow us to extract values from objects or arrays.",
     id: 12
 },
     //  Objects and destructuring
 {
     module: "obj-destructuring",
     question: "What are objects? Provide an example.",
-    answer: "",
+    answer: "An object is an instance which contains a set of key value pairs. Compare it with a cup, for example. A cup is an object, with properties. A cup has a color, a design, weight, a material it is made of, etc. The same way, JavaScript objects can have properties, which define their characteristics.",
     id: 13
 },
 {
     module: "obj-destructuring",
     question: "What do we use objects for?",
-    answer: "",
+    answer: "Objects help us to model and use complex structures",
     id: 14
 },
 {
     module: "obj-destructuring",
     question: "What are the differences between primitive and reference types? Give code examples.",
-    answer: "",
+    answer: "The difference comes in when the computer has to store a reference data type. When you create a variable and assign it a value that is a reference data type, the computer does not directly store that data type in that variable (as is the case with primitive types). What you have assigned to that variable is a pointer(adress) that points to the location of that data type in memory. Example: const a = 5 (primitive variable) if we write const b = a (another primitive variable we will have 2 different variables with the same value and if we add some number to a, b wont change. But if we write const obj1 = {} (reference type) and we create const obj2 = obj1 we have 1 empty object and 2 ways to access it.",
     id: 15
 },
 {
     module: "obj-destructuring",
     question: "What is destructuring?",
-    answer: "",
+    answer: "The destructuring assignment syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.",
     id: 16
 },
     // Git
 {
     module: "git",
     question: "What is git? What are the benefits of using it?",
-    answer: "",
+    answer: "Git is the most widely used morern version control system in the world. Some of the benefits: 1.Every developer has a working copy of the code and the repository, 2.Performance, security and flexibility in mind.",
     id: 17
 },
 {
     module: "git",
     question: "What is GitLab? What are the benefits of using it?",
-    answer: "",
+    answer: "Git is the source control system, GitLab is the service to store your repository online(like GitHub and BitBucket).Each developer gets their own local repository,distributed development creates a more reliable enviroment, in case of an error in central repository everybody can continue going about their business. Available backup.",
     id: 18
 },
 {
     module: "git",
     question: "How is GitLab different from git?",
-    answer: "",
+    answer: "GitLab is build ot top of Git.GitLab is a service to host your central repository online.",
     id: 19
 },
 {
     module: "git",
     question: "Which are the global configurations you need to set in order to use git? What is their role?",
-    answer: "",
+    answer: "For authentication we need to set our global git username, email and verify it with our password in order to see who made the commit (or they will be anonymous).",
     id: 20
 },
 {
     module: "git",
     question: "What is a commit? What information does it contain?",
-    answer: "",
+    answer: "Commit we make to save all staged changes to the local repository. Except the changes made on the source code the commit contains short message with info about the changes made.",
     id: 21
 },
     // Scope / Closure
 {
     module: "scope-closure",
     question: "What is scope? Provide an example.",
-    answer: "",
+    answer: "Scope determines the accessibility of variables, objects, and functions from different parts of the code. In JavaScript we have Global scope, Function scope and Block scope.",
     id: 22
 },
 {
     module: "scope-closure",
     question: "What is the difference between const, let and var?",
-    answer: "",
+    answer: "In the context of scope, const and let are the same and have block scope and function scope where var has only function scope.",
     id: 23
 },
 {
     module: "scope-closure",
     question: "What is the difference between == and ===, and what is type coercion?",
-    answer: "",
+    answer: "Both `==` and `===` are comparison operators used in logical statements to redermine equality or difference between variables or values.`===` compares values and types and `==` comperes only values(using type coercion if needed). Type coercion is the automatic or implicit conversion of values from one data type to another.Example: 5 == `5` (true), 5 === `5` (false).",
     id: 24
 },
 {
     module: "scope-closure",
     question: "What is variable and function hoisting?",
-    answer: "",
+    answer: "Hoisting it the process of collecing variables by the compiler and later there will be a value attached to them.",
     id: 25
 },
 {
     module: "scope-closure",
     question: "What is hoisted and what is not?",
-    answer: "",
+    answer: "Only the declaration is hoisted.Var variables and function declaration are accessible even before they are declared but const and let are in Temporal Dead Zone because they define block scope and are useble only after they are declered or initialized",
     id: 26
 },
 {
     module: "scope-closure",
     question: "What is lexical scope? What is lexing-time?",
-    answer: "",
+    answer: "Lexical scope is the definition area of an expression. In other words, an item's lexical scope is the place in which the item got created (The place an item got invoked/called is not necessarily the item`s lexical scope. Instead, an item`s definition space is its lexical scope).",
     id: 27
 },
 {
     module: "scope-closure",
     question: "What is closure? Provide an example.",
-    answer: "",
+    answer: `Closure is when a function is able to remember and access its lexical scope even when that function is executing outside its lexical scope. \r\n
+    const testFunc = () => { \r\n
+    const testVariable = 5; \r\n
+    const test = (a) => a+=testVariable; \r\n
+    "return test;}; \r\n
+    in the example if we execute testFunc example we will actualy execute test which has closure on testVariable.`,
     id: 28
 },
     // Module Pattern / FP intro
@@ -244,6 +249,7 @@ const showAnswer = () => {
         if(desiredQuestions[i].question === qField.textContent)
             current = i;
     }
+    aField.setAttribute('style', 'white-space: pre-wrap;');
     aField.textContent=desiredQuestions[current].answer;
 }
 

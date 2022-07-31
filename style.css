@@ -2,6 +2,10 @@
     box-sizing: border-box;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    word-wrap: break-word;
+    gap: 20px;
+    
+    
 }
 :root{
     font-size: 20px;
@@ -10,6 +14,10 @@ body{
     margin: 2rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
 }
 
 .header{
@@ -68,7 +76,27 @@ button{
     justify-content: center;
     align-items: center;
 }
-.btn-answer-container{
+.answer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+}
+
+.answer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    max-width: 75%;
+}
+
+p{
+    text-align: left;
+}
+
+.btn-next-container{
     display: flex;
     justify-content: center;
     align-items: center;
