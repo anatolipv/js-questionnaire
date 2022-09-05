@@ -51,11 +51,16 @@ select{
 
 .dropDown-container{
    font-size: 1.5rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 
 button{
     height: 80px;
-    width:200px;
+    max-width:200px;
+    width: 100%;
     font-size: 1.5rem;
 }
 

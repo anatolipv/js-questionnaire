@@ -15,20 +15,31 @@
     </div>
     <div class="options-container">
         <div class="dropDown-container">
-            <label for="selectModule">Select Module</label>
-            <select name="modules" id="selectModule">
-                <option value="all">All</option>
-                <option value="loops-arrays">Loops / Arrays</option>
-                <option value="functions-exceptions">Functions / Exceptions</option>
-                <option value="npm-ESModules">NPM / ES Modules</option>
-                <option value="esnext-eslint">ESNext / ESLint</option>
-                <option value="obj-destructuring">Objects and Destructuring</option>
-                <option value="git">Git</option>
-                <option value="scope-closure">Scope / Closure</option>
-                <option value="modulePattern-FPIntro">Module Pattern / FP Intro</option>
-                <option value="pureArrayFunctions">Pure Array Functions</option>
-                <option value="objectsAdvanced">Objects - Advanced Topics</option>
+            <div>
+                <label for="selectModule">Select Module</label>
+                <select  class="selectModule" name="selectModule" id="selectModule">
+                <option value="JSCore">JavaScript Core</option>
+                <option value="OOP">OOP</option>
+                <option value="DSA">DSA</option>
             </select>
+            </div>
+            <div>
+                <label for="selectModuleTheme">Select Module Theme</label>
+                <select class="selectModuleTheme" name="modules" id="selectModuleTheme">
+                    <option value="all">All</option>
+                    <option value="loops-arrays">Loops / Arrays</option>
+                    <option value="functions-exceptions">Functions / Exceptions</option>
+                    <option value="npm-ESModules">NPM / ES Modules</option>
+                    <option value="esnext-eslint">ESNext / ESLint</option>
+                    <option value="obj-destructuring">Objects and Destructuring</option>
+                    <option value="git">Git</option>
+                    <option value="scope-closure">Scope / Closure</option>
+                    <option value="modulePattern-FPIntro">Module Pattern / FP Intro</option>
+                    <option value="pureArrayFunctions">Pure Array Functions</option>
+                    <option value="objectsAdvanced">Objects - Advanced Topics</option>
+                </select></div>
+           
+            </label>
         </div>
         <button class="getQ">load Questions</button>
         <button class="clear">clear all</button>
