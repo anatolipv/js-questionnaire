@@ -3,131 +3,72 @@
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     gap: 20px;
+    padding: 0 10px;
+    width: 100%;
 }
 
 :root{
     font-size: 20px;
 }
-body{
-    margin: 2rem;
+.header{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
 }
-
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: min-content;
-    margin-bottom: 5vh;
-    margin-top: 2vh;
-    gap: 10px;
-
-}
-
 img{
     max-width: 150px;
     max-height: 150px;
 }
-
-
 h1{
     font-size: 2rem;
 }
 
 .options-container{
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-bottom: 5vh;
-}
-
-select{
-    font-size: 1.5rem;
-}
-
-.dropDown-container{
-   font-size: 1.5rem;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-}
-
-button{
-    height: 80px;
-    max-width:200px;
-    width: 100%;
-    font-size: 1.5rem;
-}
-
-.question-container{
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0px 100px;
-    height: 200px;
-}
-
-.btn-answer-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.answer-container{
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     
+    
 }
 
-
-
-p{
-    text-align: left;
+button{
+    max-width: 150px;
+    width: 100%;
+    height: 70px;
+    font-size:1rem;  
+     margin: 10px; 
+    
+}
+select{
+    font-size: 1rem;
+    margin: 10px;
 }
 
-.btn-next-container{
+.btn-container{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.select-container{
+    max-width: 500px;
+    
+}
+
+.dropDown-container{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 
 
 
 
 @media screen and (max-width: 1080px) {
-    *{
-       margin:auto;
-       padding: auto;
-       
-    }
-    .answer-container{
-        flex-direction: column;
-    }
-    h1{
-        font-size: 1rem;
-    }
-    
-    .header{
-        flex-direction: column;
-    }
-
-    button{
-        width: 200px;
-        height: 80px;
-    }
-
-    .options-container{
-        flex-direction: column;
-    }
-    .question-container{
-        flex-direction: column;
-    }
+   
 }

@@ -15,15 +15,15 @@
     </div>
     <div class="options-container">
         <div class="dropDown-container">
-            <div>
+            <div class="select-container">
                 <label for="selectModule">Select Module</label>
                 <select  class="selectModule" name="selectModule" id="selectModule">
-                <option value="JSCore">JavaScript Core</option>
-                <option value="OOP">OOP</option>
-                <option value="DSA">DSA</option>
-            </select>
+                    <option value="JSCore">JavaScript Core</option>
+                    <option value="OOP">OOP</option>
+                    <option value="DSA">DSA</option>
+                </select>
             </div>
-            <div>
+            <div class="select-container">
                 <label for="selectModuleTheme">Select Module Theme</label>
                 <select class="selectModuleTheme" name="modules" id="selectModuleTheme">
                     <option value="all">All</option>
@@ -41,21 +41,22 @@
            
             </label>
         </div>
-        <button class="getQ">load Questions</button>
-        <button class="clear">clear all</button>
+        <div class="btn-container">
+            <button class="getQ">load Questions</button>
+            <button class="clear">clear all</button>
+        </div>
         </button>
     </div>
     <div class="question-container">
         <p class="question">Questions will pop here :)</p>
-        <div class="btn-next-container">
-            <button class="btn-next-question">Next question</button>
-        </div>
     </div>
-    <div class="answer-container">
-        <div class="btn-answer-container">
+        <div class="btn-container">
+            <button class="btn-next-question">Next question</button>
             <button class="btn-show-answer">Show answer</button>
-            <p class="answer">Answers will pop here :)</p>
         </div>
+    <div class="answer-container">
+        
+        <p class="answer">Answers will pop here :)</p>
         
     </div>
     
