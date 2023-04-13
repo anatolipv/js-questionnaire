@@ -341,9 +341,24 @@ const questions = [
     id: 40,
   },
   // --------------------------------
-  // OOP
+  // OOP - Object Oriented Programming
+  // --------------------------------
+  {
+    module: 'OOP',
+    theme: 'Objects and Context Binding',
+    question: 'What is data and why is it important to keep it valid?',
+    answer: '',
+    id: 41,
+  },
+  // --------------------------------
+  // DSA - Data Structures and Algorithms
+  // --------------------------------
   // --------------------------------
 ];
+// Dynamic dropDown menu ( themes according to modules) start
+
+// ---> end
+
 let desiredQuestions = [];
 
 const dropDownTheme = document.querySelector('.selectModuleTheme');
@@ -391,11 +406,12 @@ const nextQuestion = () => {
 };
 
 btnGetQ.addEventListener('click', () => {
-  if (dropDownTheme.value === 'all') desiredQuestions = questions;
+  if (dropDownModule.value === 'all' && dropDownTheme.value === 'all')
+    desiredQuestions = questions;
   else
-    desiredQuestions = questions.filter(
-      (el) => el.theme === dropDownTheme.value
-    );
+    desiredQuestions = questions
+      .filter((el) => el.module === dropDownModule.value)
+      .filter((el) => el.theme === dropDownTheme.value);
 
   qField.textContent = getQuestion();
 
