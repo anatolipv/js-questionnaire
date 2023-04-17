@@ -1,0 +1,53 @@
+module loops/arrays
+What is a loop? What types of loops do you know?
+What is an array? What are the benefits of using arrays over using several variables?
+
+module functions / exceptions
+What is a function? What types of functions are there?
+What is the difference between function expression, fat arrows and function declaration?
+What is an immediately-invoked function expression? Why use it?
+
+module npm / es modules
+What is NPM? What are the benefits of using it?
+What is the package.json file?
+What are NPM scripts?
+What are ES Modules?
+
+module ESNext / ESLint
+What are the benefits of including 'use strict' at the beginning of a JavaScript source file?
+What are template strings? What are their benefits?
+What are destructuring assignments?
+
+module Objects and destructuring
+What are objects? Provide an example.
+What do we use objects for?
+What are the differences between primitive and reference types? Give code examples.
+What is destructuring?
+
+module Git
+What is git? What are the benefits of using it?
+What is GitLab? What are the benefits of using it?
+How is GitLab different from git?
+Which are the global configurations you need to set in order to use git? What is their role?
+What is a commit? What information does it contain?
+
+module Scope / Closure
+What is scope? Provide an example.
+What is the difference between const, let and var?
+What is the difference between == and ===, and what is type coercion?
+What is variable and function hoisting?
+What is hoisted and what is not?
+What is lexical scope? What is lexing-time?
+What is closure? Provide an example.
+
+module Module Pattern / FP intro
+What is functional programming?
+What is a pure function and what are side effects?
+What is a module and why would you use it?
+What is the revealing module pattern?
+
+module Pure array functions
+What are the benefits of using array methods (forEach, map, etc.) over loops?
+Implement filter, map and reduce.
+Refactor an imperative loop using filter, map, reduce, etc.
+

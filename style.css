@@ -1,74 +1,65 @@
-*{
-    box-sizing: border-box;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    gap: 20px;
-    padding: 0 10px;
-    width: 100%;
+* {
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  gap: 20px;
+  padding: 0 10px;
+  width: 100%;
 }
 
-:root{
-    font-size: 20px;
+:root {
+  font-size: 20px;
 }
-.header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-img{
-    max-width: 150px;
-    max-height: 150px;
+img {
+  max-width: 150px;
+  max-height: 150px;
 }
-h1{
-    font-size: 2rem;
-}
-
-.options-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    
+h1 {
+  font-size: 2rem;
 }
 
-button{
-    max-width: 150px;
-    width: 100%;
-    height: 70px;
-    font-size:1rem;  
-     margin: 10px; 
-    
-}
-select{
-    font-size: 1rem;
-    margin: 10px;
+.options-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.btn-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+button {
+  max-width: 150px;
+  width: 100%;
+  height: 70px;
+  font-size: 1rem;
+  margin: 10px;
+}
+select {
+  font-size: 1rem;
+  margin: 10px;
+}
+/* коментар */
+asdasd .btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
-.select-container{
-    max-width: 500px;
-    
+.select-container {
+  max-width: 500px;
 }
 
-.dropDown-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.dropDown-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
-
-
-
 
 @media screen and (max-width: 1080px) {
-   
 }

@@ -179,7 +179,7 @@ const questions = [
       'Commit we make to save all staged changes to the local repository. Except the changes made on the source code the commit contains short message with info about the changes made.',
     id: 21,
   },
-  // Scope / Closure
+  // Scope / Closure promqna
   {
     module: 'Core',
     theme: 'scope-closure',
