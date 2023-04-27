@@ -183,7 +183,7 @@ const questions = [
   {
     module: 'Core',
     theme: 'scope-closure',
-    question: 'What is scope? Provide an example.',
+    question: 'What is scopeadsadasd? Provide an example.',
     answer:
       'Scope determines the accessibility of variables, objects, and functions from different parts of the code. In JavaScript we have Global scope, Function scope and Block scope.',
     id: 22,
